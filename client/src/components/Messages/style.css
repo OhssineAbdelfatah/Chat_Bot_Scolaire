@@ -1,0 +1,21 @@
+  .item-enter {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  
+
+  .item-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all 0.4s ease;
+  }
+
+  .item-exit {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .item-exit-active {
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: all 0.5s ease;
+  }

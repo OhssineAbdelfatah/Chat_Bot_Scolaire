@@ -1,0 +1,52 @@
+.container_wrapper
+{
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+    background-color:whitesmoke;
+    height: 90%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../../src/assets/perspective-exterior-nobody-empty-box.jpg) ;
+}
+
+.chat_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.chat_wrapper
+{
+    height: 94%;
+    overflow-y: scroll;
+    
+}
+
+.input_wrapper{
+    
+    width:500px;
+    height: 6%;
+    margin: 10px -10px ;
+}
+
+
+.welcoming{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.userAccount{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width:115px ;
+    padding-top: 30px;
+
+} 
+
+.header_chatbot{
+    border-bottom: 2px solid white;
+}
+
