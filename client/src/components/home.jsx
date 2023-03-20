@@ -24,7 +24,7 @@ const home = () => {
             </div>
             <div clasName="row">
                 <div className="col p-3 m-3" >
-                    <h1>Chatbot Faculte des sciences et Techniques</h1>
+                    <h1>Chatbot Faculté des sciences et Techniques</h1>
                 </div>
             </div>
             <div className="col">
